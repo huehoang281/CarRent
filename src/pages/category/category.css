@@ -1,0 +1,41 @@
+.category content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 40px;
+    
+}
+
+.category-right{
+    flex: 3;
+    
+}
+.above{
+    display: flex;
+    gap: 35px;
+    
+}
+.left-content{
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+.content-right{
+    display: flex;
+    align-items: center;
+    width: auto;
+    position: relative;
+   
+}
+.content-product{
+    display: flex;
+    gap: 30px;
+}
+

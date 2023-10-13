@@ -1,0 +1,107 @@
+
+.product-left{
+    flex: 1;
+}
+.product-right{
+    font-weight: bold;
+    color: orange;
+
+}
+.product1{
+    border-radius: 10px;
+    flex: 1;
+    max-width: 100%;
+    margin-top: 30px;
+    height: 440px;
+    background-color: rgb(241, 241, 240);
+}
+.product1 a{
+    text-decoration: none;
+    color: black;
+}
+.p-product{
+    display: flex;
+    margin: 10px;
+
+
+}
+.pdu-left{
+    flex: 1;
+    margin: 20px;
+
+}
+.pdu-icon{
+    flex: 1;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(101, 101, 101);
+    
+
+}
+.pdu-title{
+    font-size: 20px;
+}
+.img-pdu{
+
+    width: 250px;
+    height: auto;
+    margin: 40px 80px ; 
+}
+.p-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: 20px;
+    margin-top: 19px;
+
+}
+.p-icon1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7px;
+}
+.p-under{
+    display: flex;
+    flex: 1;
+    margin: 30px;
+    margin-top: -13px;
+    align-items: flex-start;
+    
+}
+.pro-left{
+    flex: 1;
+    
+
+}
+.pro-button{
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 130px;
+    color: var(--text-color);
+    background-color: var(--second-color);
+    font-size: 20px;
+    
+}
+.pro-title{
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+    font-size: 20px;
+}
+
+.remargin{
+    margin: 0;
+}
+
+/* Button custom */
+.button-custom {
+    height: 50px;
+    width: 130px;
+    font-size: 20px;   
+}
+
+.button-color-custom {
+    color: var(--text-color);
+    background-color: var(--second-color);
+}

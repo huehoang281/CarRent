@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    border: 1px solid #dedcdc;
+    padding: 0px  ;
+    box-shadow: 2px 2px 2px  #cac7c7;
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+    
+}
+.container h2{
+    color: orange;
+    text-align: center;
+}
+.submit-color{
+    background-color: var(--first-color);
+}
+
+
+.login{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.img-img {
+    flex:  1;
+    overflow: hidden;
+
+}
+.img-imgsinup{
+    flex:  1;
+    overflow: hidden;
+
+}
+.form{
+    flex: 1;
+    padding-right: 30px;
+   
+}
+.buttom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.button-sigup {
+    width: 100%;
+}

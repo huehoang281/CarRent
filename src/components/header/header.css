@@ -1,0 +1,61 @@
+.h{
+    display: flex;
+   padding: 40px;
+
+}
+.h-left{
+    
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+
+}
+.h-left a{
+    text-decoration: none;
+}
+.h-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+
+}
+.h-title{
+    font-weight: 700;
+    font-size: 32pX;
+    line-height: 40px;
+    text-transform: uppercase;
+    color:var(--first-color);
+    
+
+    
+}
+.h-search{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid rgb(234, 230, 230); /* Thêm viền màu xám */
+    border-radius: 40px;    /* Bo tròn góc */
+    padding: 10px;  
+}
+.h-text{
+    border: none;
+    width: 100%;
+
+}
+.h-icon{
+    border: 1px solid rgb(234, 230, 230); /* Thêm viền màu xám */
+    border-radius: 40px;    /* Bo tròn góc */
+    padding: 10px; 
+}
+
+.h-img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(239, 238, 238); /* Thêm viền màu xám */
+    border-radius: 40px;    /* Bo tròn góc */
+}

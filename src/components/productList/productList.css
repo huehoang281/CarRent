@@ -1,0 +1,34 @@
+.product{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    
+}
+.list{
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product11{
+    display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+    margin-top: 40px;
+}
+.product-left1 {
+    transform: translateX(24px);
+    border-radius: 10px; 
+    border: none;/* Để tạo hình trái tim */
+    width: 150px;
+    height: 50px;
+    color: rgb(255, 255, 255); /* Màu xám cho chữ */
+    margin-right: auto; /* Đẩy nút "Show more Car" ra giữa */
+    margin-left: auto; 
+    background-color:var(--second-color);
+    /* Đẩy nút "Show more Car" ra giữa */
+  }
+  
+ 
+
